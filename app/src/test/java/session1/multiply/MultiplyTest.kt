@@ -19,7 +19,13 @@ class MultiplyTest : TestCase() {
                 multiply(a, multiply(b, c)),
                 1E-14
             )
-            Assert.assertEquals(multiply(a, b), a * b, 1e-3);
+            Assert.assertEquals(multiply(a, b), a * b, 1e-3)
         }
     }
+
+    @Test
+    fun test_Multiply_By_Zero() {
+        Assert.assertEquals(multiply(0.0, 5.0), 0)
+    }
+
 }
