@@ -1,4 +1,4 @@
-package session1
+package session1.multiply
 
 import junit.framework.TestCase
 import org.junit.Assert

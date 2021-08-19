@@ -1,4 +1,4 @@
-package session1
+package session1.sumofpositive
 
 import junit.framework.TestCase
 import org.junit.Test

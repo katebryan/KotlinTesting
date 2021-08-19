@@ -1,4 +1,4 @@
-package session1
+package session1.oppositenumber
 
 // Very simple, given a number, find its opposite.
 //
